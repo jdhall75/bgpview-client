@@ -55,9 +55,11 @@ class BGPViewResource:
         for key in data:
             setattr(self, key, data[key])
 
+
 class Prefix(BGPViewResource):
     def __init__(self, data: dict, bgpview_client: BGPView):
-        super(Prefixe, self).__init__(data, bgpview_client)
+        super(Prefix, self).__init__(data, bgpview_client)
+
 
 class ASNPrefixes(BGPViewResource):
     def __init__(self, data: dict, bgpview_client: BGPView):
