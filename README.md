@@ -1,7 +1,7 @@
 BGPView API
 -----------
-Original Author: Sefa Eyeoglu
-Original Repo: https://gitlab.com/Scrumplex/pyqis
+- Original Author: Sefa Eyeoglu
+- Original Repo: https://gitlab.com/Scrumplex/pyqis
 
 --------
 The original repo was archived, I cloned / forked the project into github 
